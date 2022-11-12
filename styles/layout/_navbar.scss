@@ -1,0 +1,16 @@
+.nav {
+  &__logo {
+    border: 2px solid salmon;
+  }
+
+  &__container {
+    border: 1px solid bisque;
+    &__item {
+      background-color: azure;
+      &__link {
+        border-radius: 4px;
+        border: 1px solid black;
+      }
+    }
+  }
+}
